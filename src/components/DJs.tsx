@@ -1,7 +1,9 @@
 import "./styles/DJs.css";
 
 import beatbird from "../assets/beatbird.jpg";
-import yellowstreak from "../assets/yellowstreak.jpg";
+import djem from "../assets/djem.jpg";
+import stripe from "../assets/stripe.jpg";
+import menos from "../assets/menos.png";
 
 function DJs() {
   return (
@@ -16,21 +18,20 @@ function DJs() {
         <div className="dj__quote">
           <p>
             The one and only Dutch DJ Bird! Living close to the venue so it's
-            almost like home.Loves to play all kinds of styles!
+            almost like home. Loves to play all kinds of styles!
           </p>
         </div>
       </section>
-      <section className="dj yellowstreak">
+      <section className="dj djem">
         <div className="dj__quote">
           <p>
-            A German DJ famous from Summerbo.at and plenty of other German
-            Furdances!
+            The French Laser DJ. Loves to please the crowd and resident DJ at many big cons and parties.
           </p>
         </div>
         <div className="dj__image">
-          <img src={yellowstreak} alt="" />
+          <img src={djem} alt="" />
           <div className="dj__name">
-            <h1>Yellowstreak</h1>
+            <h1>Djem</h1>
           </div>
         </div>
       </section>
@@ -43,14 +44,15 @@ function DJs() {
         </div>
         <div className="dj__quote">
           <p>
-            
+          The Mash-up king of Germany! He is the only one that can mix schlagers with baby shark and still make it sound good.
           </p>
         </div>
       </section>
       <section className="dj menos">
         <div className="dj__quote">
           <p>
-            
+          One of our Dutch DJ's that will end the evening with one mission; Make everyone like hardstyle!
+          Get ready for some bangers, sing-a-longs and a bass that will blow you away.
           </p>
         </div>
         <div className="dj__image">
